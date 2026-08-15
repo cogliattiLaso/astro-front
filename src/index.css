@@ -338,16 +338,17 @@ main {
 .writing-card__title {
   position: relative;
   z-index: 1;
-  font-family: fantasy;
+  font-family: var(--font-serif);
   font-size: 1.6rem;
   color: #000000;
   margin-top: 6px;
+  margin-bottom: 15px;
   line-height: 1.1;
   text-align: left;
 }
 
 .writing-card__excerpt {
-  font-family: fantasy;
+  font-family: var(--font-serif);
   font-size: 1.0rem;
   color: #5C2811;
   line-height: 1.4;
@@ -548,5 +549,10 @@ main {
   .videos__grid,
   .sessions__grid {
     grid-template-columns: 1fr;
+  }
+
+  .session-card {
+    width: calc(100% - 10px);
+    margin: 0 auto;
   }
 }

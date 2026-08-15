@@ -6,8 +6,7 @@ const writings = [
   {
     date: '28 Jul 2026',
     title: 'Prohibido pasar',
-    excerpt: `
-              Decidiste no hacer caso a los carteles y pese al ‘’prohibido pasar’’
+    excerpt: `Decidiste no hacer caso a los carteles y pese al ‘’prohibido pasar’’
               entraste igual, proclamaste tuyo este incendio que soy,
               avivaste la llama, te abrigaste en su fervor y lo creíste controlado
               y en efecto se te fue de las manos
@@ -25,8 +24,7 @@ const writings = [
   {
     date: '18 Dic 2025',
     title: 'Mujer que escribe',
-    excerpt: `
-              Cuidado con vincularte con una mujer que escribe…
+    excerpt: `Cuidado con vincularte con una mujer que escribe…
               Una mujer que escribe no se distrae de sí misma. Y cuando se pierde, sabe qué ruta tomar para volver a casa.
               Pone palabras donde antes había silencio. No para encontrar respuestas, sino para abrir espacio a las dudas, a las distintas perspectivas y a las infinitas posibilidades.
               Una mujer que escribe se anima a mirar su sombra y hacerse cargo de ella. Un día cualquiera puede venir a decirte: “Ya entendí lo que me pasa”, y contarte algo de ese infinito mundo interno que habita.
@@ -39,8 +37,7 @@ const writings = [
   {
     date: '25 Ago 2025',
     title: 'Que es lo que hace que sepas cuando irte o quedarte? Amarte',
-    excerpt: `
-              Quizás estás dudando si quedarte o irte de un vínculo que no termina de ser recíproco. Algo te duele, te hace dudar, incluso puede hacerte preguntarte quién sos dentro de esa relación.
+    excerpt: `Quizás estás dudando si quedarte o irte de un vínculo que no termina de ser recíproco. Algo te duele, te hace dudar, incluso puede hacerte preguntarte quién sos dentro de esa relación.
               Y quizás la pregunta no sea solamente qué hacer con el otro.
               Quizás sea:
               ¿Qué decisión honra más a mi corazón?              ¿Qué haría el amor en este momento?              ¿Qué me está queriendo mostrar mi amor propio?

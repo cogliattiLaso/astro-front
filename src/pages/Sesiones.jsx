@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { IconSun, IconHeart, IconHash } from '@tabler/icons-react'
 import SectionTitle from '../components/SectionTitle'
 import Button from '../components/Button'
@@ -75,6 +75,17 @@ export default function Sesiones() {
   const [activeSession, setActiveSession] = useState(null)
 
   const close = () => setActiveSession(null)
+
+  useEffect(() => {
+    if (activeSession) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = ''
+    }
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [activeSession])
 
   return (
     <section className="page">
