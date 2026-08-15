@@ -1,0 +1,11 @@
+.instagram-username {
+  color: #f97316;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.instagram-username:hover {
+  color: #c2410c;
+}
