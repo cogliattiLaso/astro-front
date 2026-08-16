@@ -263,6 +263,28 @@ main {
   transform: scale(1.02);
 }
 
+.home__about {
+  width: 100%;
+  margin-top: 24px;
+  text-align: left;
+}
+
+.home__about-title {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--text-primary);
+  margin: 0 0 12px;
+}
+
+.home__about-text {
+  font-family: var(--font-sans);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-secondary-dark);
+  white-space: pre-line;
+  margin: 0;
+}
+
 /* escritos */
 .writings__list {
   width: 100%;
@@ -401,6 +423,20 @@ main {
   padding: 0 12px;
 }
 
+.video-card--instagram {
+  width: 100%;
+  max-width: 540px;
+  justify-self: center;
+  cursor: default;
+}
+
+.video-card--instagram .instagram-media,
+.video-card--instagram iframe {
+  width: 100% !important;
+  min-width: unset !important;
+  max-width: 100% !important;
+}
+
 /* sesiones */
 .sessions__grid {
   width: 100%;
@@ -447,6 +483,52 @@ main {
 .session-card:hover .session-card__summary {
   opacity: 1;
   visibility: visible;
+}
+
+.sessions__info {
+  width: 100%;
+  max-width: 520px;
+  margin: 20px auto 0;
+  padding: 16px;
+  background: var(--bg-card);
+  border-radius: var(--radius-card);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.sessions__info-title,
+.sessions__info-label {
+  margin: 0;
+  color: var(--text-secondary-dark);
+}
+
+.sessions__info-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.95rem;
+}
+
+.sessions__info-label {
+  font-size: 0.85rem;
+}
+
+.sessions__payments {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+}
+
+.sessions__payment {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: var(--text-primary);
 }
 
 .session-modal {

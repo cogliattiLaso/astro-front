@@ -58,6 +58,29 @@ export default function Home() {
         <img src="/images/val1.jpg" alt="Valentina" className="home__photo" />
         <img src="/images/val2.jpg" alt="Valentina sesión" className="home__photo" />
       </div>
+
+      <Card className="home__about">
+        <h2 className="home__about-title">Sobre mí</h2>
+        <p className="home__about-text">
+          {`Soy Valentina.
+
+Desde siempre me interesó comprender lo que hay detrás de lo evidente: lo que sentimos, lo que repetimos, lo que nos transforma y aquello que no siempre sabemos cómo nombrar.
+
+La astrología, el tarot, la numerología y la espiritualidad llegaron a mi vida como herramientas para explorar y conocernos desde otras perspectivas.
+
+No busco darte respuestas cerradas ni decirte qué va a pasar. Me interesa abrir preguntas, mirar los procesos de otra manera y encontrar significado en aquello que estamos atravesando.
+
+Creo en estas herramientas como mapas y espejos, pero también en nuestra capacidad de elegir, cuestionarnos y transformarnos.
+
+Este espacio nace de mis propias búsquedas, crisis, vínculos y aprendizajes.
+
+Más que respuestas, busco abrir conversaciones.
+
+Sobre la vida, los vínculos, el alma y todo eso que nos habita aunque no siempre sepamos nombrarlo.
+
+Si sentís que hay algo más de lo que se ve, bienvenida.`}
+        </p>
+      </Card>
     </section>
   )
 }

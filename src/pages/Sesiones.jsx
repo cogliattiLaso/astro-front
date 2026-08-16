@@ -1,5 +1,13 @@
 import { useState, useEffect } from 'react'
-import { IconSun, IconHeart, IconHash } from '@tabler/icons-react'
+import {
+  IconSun,
+  IconHeart,
+  IconHash,
+  IconWorld,
+  IconCreditCard,
+  IconBuildingBank,
+  IconBrandPaypal,
+} from '@tabler/icons-react'
 import SectionTitle from '../components/SectionTitle'
 import Button from '../components/Button'
 import Card from '../components/Card'
@@ -122,6 +130,23 @@ export default function Sesiones() {
       >
         Reservar sesión
       </Button>
+      <div className="sessions__info">
+        <p className="sessions__info-title">
+          <IconWorld size={20} stroke={1.5} /> Las sesiones son 100% online
+        </p>
+        <p className="sessions__info-label">Medios de pago:</p>
+        <div className="sessions__payments">
+          <span className="sessions__payment">
+            <IconCreditCard size={20} stroke={1.5} /> Mercado Pago
+          </span>
+          <span className="sessions__payment">
+            <IconBuildingBank size={20} stroke={1.5} /> Transferencia
+          </span>
+          <span className="sessions__payment">
+            <IconBrandPaypal size={20} stroke={1.5} /> PayPal
+          </span>
+        </div>
+      </div>
 
       {activeSession && (
         <div className="session-modal" onClick={close}>

@@ -62,7 +62,7 @@ const writings = [
 ]
 
 export default function Escritos() {
-  const [openIndex, setOpenIndex] = useState(0)
+  const [openIndex, setOpenIndex] = useState(writings.length - 1)
 
   const handleClick = (index) => {
     setOpenIndex(openIndex === index ? -1 : index)
@@ -70,7 +70,7 @@ export default function Escritos() {
 
   return (
     <section className="page">
-      <SectionTitle title="Textos y reflexiones" />
+      <SectionTitle title="Acá escribo" />
       <div className="writings__list">
         {writings.map((writing, index) => (
           <Card
