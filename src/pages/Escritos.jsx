@@ -59,6 +59,78 @@ const writings = [
               Espacio para volver a vos. ✨🔮🏹
               Lo que ya no tiene lugar en tu vida, se va.              Y quizás eso también sea amor.`,
   },
+  {
+    date: '',
+    title: 'Dejar de salvar lo que se está cayendo',
+    excerpt: `Algo que siento que esta temporada de eclipses también viene a llevarse es ese instinto salvador que tenemos de correr detrás de todo lo que se está cayendo, como si fuera nuestra responsabilidad sostener el mundo con las manos.
+
+Como si amar fuera rescatar.
+
+Como si querer a alguien significara evitarle el golpe, explicarle todo, acomodarle el camino o quedarnos sosteniendo algo que hace tiempo dejó de sostenerse solo.
+
+Y no.
+
+Hay personas que amamos profundamente y que, aun así, tenemos que dejar caminar.
+
+Dejarlas equivocarse.
+Dejarlas tropezarse.
+Dejarlas hacerse cargo.
+Dejarlas aprender.
+
+Porque hay procesos que no podemos vivir por otro. Y hay consecuencias que tampoco nos corresponde amortiguar.
+
+A veces, por querer que alguien no sufra, terminamos cargando con dolores que nunca fueron nuestros.
+
+Y quizás también haya una forma de amor en decir: esto te corresponde a vos.
+
+No desde el abandono.
+No desde la indiferencia.
+Desde entender que cada persona tiene que encontrarse con aquello que construyó.
+
+Con sus decisiones.
+Con sus sombras.
+Con sus contradicciones.
+Y también con una fuerza que quizás todavía no sabe que tiene.
+
+Esta temporada me hace pensar mucho en eso: en dejar de rescatar, de justificar, de explicar, de acomodar la vida ajena para que nadie tenga que atravesar un dolor.
+
+Porque no todo lo que se cae necesita que corramos a sostenerlo.
+
+A veces tiene que caer.
+
+A veces tiene que terminar.
+
+A veces tiene que doler.
+
+Y a veces el verdadero aprendizaje está en quedarnos quietas y confiar en que el otro también puede atravesar su propio incendio.
+
+No vinimos a salvar a nadie de su proceso.
+
+Y tampoco necesitamos que nadie nos salve del nuestro.
+
+Hay dolores que vienen a despertarnos. Hay pérdidas que vienen a devolvernos algo. Hay finales que nos obligan a volver a mirar hacia adentro.
+
+Y quizás de eso se trate también soltar:
+
+dejar de correr detrás de lo que se está cayendo para empezar a preguntarnos qué parte de nosotras venía cayéndose mientras intentábamos sostenerlo todo.
+
+Porque cada vez que soltamos la necesidad de salvar a alguien, hay algo que vuelve.
+
+Nosotras.`,
+  },
+  {
+    date: '',
+    title: 'Sostener el vacio.',
+    excerpt: `Sostener el vacio.
+Habitarlo.
+Mirar de frente al abismo y permitir que te mire devuelta.
+La verdad siempre espera que te quedes el tiempo suficiente para escucharla.
+No escapes.
+No te distraigas.
+No te anestesies.
+Quedate!
+Lo que emerge en este silencio es exactamente lo que tiene el poder de transformarte.`,
+  },
 ]
 
 export default function Escritos() {
